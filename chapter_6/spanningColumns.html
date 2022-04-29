@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanning Columns</title>
+    <style type="text/css"> /*cascade stylesheet*/
+        table {
+            border: none;}
+        th, td {
+            border: none;
+            background-color: #dddddd;
+            padding: 5px;
+            width: 	100px;}
+    </style>
+</head>
+<body>
+    <table>
+        <tr> <!--table row-->
+            <th></th> <!--table header-->
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td> <!--table data-->
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Study Hall</td>
+        </tr>
+    </table>
+</body>
+</html>

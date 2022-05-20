@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style type="text/css">
+        #gradient {
+            /*fallback color*/
+            background-color: #66cccc;
+
+            /*background-image: url("images/fallback-image.png");*/
+
+            /*firefox*/
+            background-image: -moz-radial-gradient(#336666, #6ccccc);
+            /*safari*/
+            background-image: -webkit-gradient(linear, 0%,0%,0%,100%, from(#66cccc), to(#336666));
+            /*safari*/
+            background-image: -webkit-linear-gradient(#336666, #66cccc);
+            /*opera*/
+            background-image: -o-linear-gradient(#336666, #66cccc);
+            height: 1500px;
+            width: 3000px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="gradient">
+
+
+    </div>
+</body>
+</html>
